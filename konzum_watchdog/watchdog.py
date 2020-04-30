@@ -176,7 +176,7 @@ class KonzumWatchdog:
                 self._current_state = self._previous_state
 
             if state_changed:
-                if current_state == self.State.AVAILABLE:
+                if self._current_state == self.State.AVAILABLE:
                     self._notify()
                 logging.info('State change: %s -> %s', self._previous_state, self._current_state)
 
