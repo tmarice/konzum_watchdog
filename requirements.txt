@@ -18,7 +18,7 @@ pickleshare==0.7.5
 prompt-toolkit==3.0.5
 ptyprocess==0.6.0
 pycparser==2.20
-Pygments==2.6.1
+Pygments==2.7.4
 pyOpenSSL==19.1.0
 python-dateutil==2.8.1
 python-http-client==3.2.7
